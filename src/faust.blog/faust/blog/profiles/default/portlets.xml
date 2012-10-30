@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<portlets>
+  <portlet
+    addview="faust.blog.archive"
+    title="Monthly archive"
+    description="A blog style archive portlet"
+    />
+  <portlet
+      addview="faust.blog.blogrecent"
+      title="Blog recent"
+      description="A blog recent entries portlet"
+      />
+  <portlet
+      addview="faust.blog.categories"
+      title="Blog categories"
+      description="A blog categories portlet"
+      />
+</portlets>
