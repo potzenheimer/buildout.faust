@@ -1,9 +1,19 @@
 // Custom application specific styles
 //--------------------------------------
 
-// faust styles for a custom editbar override of the basic
-// twitter bootstarp navbar to make the edit bar look like a
-// browser toolbar
+.app-navbar {
+    margin-bottom: 0;
+}
+
+.app-navbar + .app-main {
+    margin-top: @navbar-height;
+}
+
+// Additional margin needed when CMS toolbar is visible for logged in users
+.app-toolbar + .app-navbar {
+    margin-top: @navbar-height;
+}
+
 body > header {
     #toolbar + nav,
     #editbar-wrapper + nav {
@@ -33,9 +43,12 @@ body > header {
 }
 
 .btn {
+    font-family: 'OswaldBook';
+}
+
+.app-btn {
       font-size: 20px;
-      padding: @paddingLarge;
-      .border-radius(0px);
+      border-radius: 0;
       margin-right: @line-height-computed;
       font-family: 'OswaldBook';
       //border-color: @white;
@@ -46,9 +59,8 @@ body > header {
   border: none;
   background: transparent;
   box-shadow: none;
-  h4 {
-    font-family: 'OswaldStencilRegular';
-    font-weight: normal;
+  > .panel-heading {
+    background: transparent;
   }
 }
 

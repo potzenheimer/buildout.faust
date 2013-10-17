@@ -95,8 +95,10 @@ module.exports = function (grunt) {
             fonts: {
                 expand: true,
                 flatten: true,
-                cwd: 'bower_components/',
-                src: ['font-awesome/font/*'],
+                src: [
+                    'bower_components/font-awesome/font/*',
+                    'assets/font/*'
+                ],
                 dest: 'dist/assets/fonts/'
             },
             ico: {
