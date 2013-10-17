@@ -1,24 +1,25 @@
 <div class="well"
     id="splashbox-blog-recent"
-    i18n:domain="faust.blog">
+    i18n:domain="ifd.blog">
 
     <h4>
+        <i class="icon-star" />
         Letzte Blogbeitr&auml;ge
     </h4>
     <ul class="nav nav-list">
       <tal:block define="plone_view context/@@plone;"
         repeat="item view/items">
         <li>
-          <p class="muted">
-            <small tal:content="python:plone_view.toLocalizedTime(item.Date)">
-              1779</small><br />
-            <span tal:content="item/Title">Entry Title</span><br />
-            <a tal:attributes="href python:view.item_url(item)" class="link-more">
-                mehr
-            </a>
-          </p>
+          <span tal:content="item/Title">Entry Title</span>
+          <small tal:content="python:plone_view.toLocalizedTime(item.Date)">
+            1779</small>
         </li>
-        <li class="divider"></li>
+        <li>
+            <a tal:attributes="href python:view.item_url(item)" class="link-more">
+                mehr&hellip;
+            </a>
+        </li>
+        <li class="divider"><hr></li>
       </tal:block>
     </ul>
 </div>
