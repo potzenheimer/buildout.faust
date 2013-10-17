@@ -35,11 +35,8 @@
             class="documentDescription lead"
             tal:content="item/Description" />
 
-          <tal:block tal:define="count repeat/item/number;">
-            <div tal:condition="python:count == 1" class="entry-body">
-                <div tal:content="structure item/text/output" />
-            </div>
-          </tal:block>
+            <div tal:content="structure item/text/output" />
+            
           <footer>
           <a href="" class="xlink-more xpull-right"
             tal:attributes="href item/getURL">

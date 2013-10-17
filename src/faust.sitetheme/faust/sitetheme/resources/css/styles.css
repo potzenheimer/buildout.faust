@@ -6411,12 +6411,14 @@ body > header .brand {
   margin-right: 20px;
   font-family: 'OswaldBook';
 }
-.well {
+.well,
+.panel {
   border: none;
   background: transparent;
   box-shadow: none;
 }
-.well h4 {
+.well h4,
+.panel h4 {
   font-family: 'OswaldStencilRegular';
   font-weight: normal;
 }
