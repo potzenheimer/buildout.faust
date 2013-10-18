@@ -324,13 +324,13 @@ textarea {
 }
 
 a {
-  color: #428bca;
+  color: #205c90;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #2a6496;
+  color: #123451;
   text-decoration: underline;
 }
 
@@ -419,7 +419,7 @@ cite {
 }
 
 .text-primary {
-  color: #428bca;
+  color: #205c90;
 }
 
 .text-warning {
@@ -2080,8 +2080,8 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #428bca;
-  border-color: #357ebd;
+  background-color: #205c90;
+  border-color: #1b4f7b;
 }
 
 .btn-primary:hover,
@@ -2090,8 +2090,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #3276b1;
-  border-color: #285e8e;
+  background-color: #19476f;
+  border-color: #102f49;
 }
 
 .btn-primary:active,
@@ -2115,8 +2115,8 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #428bca;
-  border-color: #357ebd;
+  background-color: #205c90;
+  border-color: #1b4f7b;
 }
 
 .btn-warning {
@@ -2285,7 +2285,7 @@ fieldset[disabled] .btn-info.active {
 
 .btn-link {
   font-weight: normal;
-  color: #428bca;
+  color: #205c90;
   cursor: pointer;
   border-radius: 0;
 }
@@ -2308,7 +2308,7 @@ fieldset[disabled] .btn-link {
 
 .btn-link:hover,
 .btn-link:focus {
-  color: #2a6496;
+  color: #123451;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -3268,7 +3268,7 @@ input[type="button"].btn-block {
 .dropdown-menu > li > a:focus {
   color: #ffffff;
   text-decoration: none;
-  background-color: #428bca;
+  background-color: #205c90;
 }
 
 .dropdown-menu > .active > a,
@@ -3276,7 +3276,7 @@ input[type="button"].btn-block {
 .dropdown-menu > .active > a:focus {
   color: #ffffff;
   text-decoration: none;
-  background-color: #428bca;
+  background-color: #205c90;
   outline: 0;
 }
 
@@ -3858,7 +3858,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #428bca;
+  border-color: #205c90;
 }
 
 .nav .nav-divider {
@@ -3947,7 +3947,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
-  background-color: #428bca;
+  background-color: #205c90;
 }
 
 .nav-stacked > li {
@@ -4022,13 +4022,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .nav .caret {
-  border-top-color: #428bca;
-  border-bottom-color: #428bca;
+  border-top-color: #205c90;
+  border-bottom-color: #205c90;
 }
 
 .nav a:hover .caret {
-  border-top-color: #2a6496;
-  border-bottom-color: #2a6496;
+  border-top-color: #123451;
+  border-bottom-color: #123451;
 }
 
 .nav-tabs .dropdown-menu {
@@ -4710,8 +4710,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
   z-index: 2;
   color: #ffffff;
   cursor: default;
-  background-color: #428bca;
-  border-color: #428bca;
+  background-color: #205c90;
+  border-color: #205c90;
 }
 
 .pagination > .disabled > span,
@@ -4859,12 +4859,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .label-primary {
-  background-color: #428bca;
+  background-color: #205c90;
 }
 
 .label-primary[href]:hover,
 .label-primary[href]:focus {
-  background-color: #3071a9;
+  background-color: #174166;
 }
 
 .label-success {
@@ -4936,7 +4936,7 @@ a.badge:focus {
 
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #428bca;
+  color: #205c90;
   background-color: #ffffff;
 }
 
@@ -5003,7 +5003,7 @@ a.list-group-item.active > .badge,
 
 a.thumbnail:hover,
 a.thumbnail:focus {
-  border-color: #428bca;
+  border-color: #205c90;
 }
 
 .thumbnail > img {
@@ -5161,7 +5161,7 @@ a.thumbnail:focus {
   font-size: 14px;
   color: #ffffff;
   text-align: center;
-  background-color: #428bca;
+  background-color: #205c90;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
           box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -5316,8 +5316,8 @@ a.list-group-item:focus {
 .list-group-item.active:focus {
   z-index: 2;
   color: #ffffff;
-  background-color: #428bca;
-  border-color: #428bca;
+  background-color: #205c90;
+  border-color: #205c90;
 }
 
 .list-group-item.active .list-group-item-heading,
@@ -5329,7 +5329,7 @@ a.list-group-item:focus {
 .list-group-item.active .list-group-item-text,
 .list-group-item.active:hover .list-group-item-text,
 .list-group-item.active:focus .list-group-item-text {
-  color: #e1edf7;
+  color: #95c1e7;
 }
 
 .list-group-item-heading {
@@ -5474,21 +5474,21 @@ a.list-group-item:focus {
 }
 
 .panel-primary {
-  border-color: #428bca;
+  border-color: #205c90;
 }
 
 .panel-primary > .panel-heading {
   color: #ffffff;
-  background-color: #428bca;
-  border-color: #428bca;
+  background-color: #205c90;
+  border-color: #205c90;
 }
 
 .panel-primary > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #428bca;
+  border-top-color: #205c90;
 }
 
 .panel-primary > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #428bca;
+  border-bottom-color: #205c90;
 }
 
 .panel-success {
@@ -9157,7 +9157,7 @@ ul.formTabs .open > a,
 ul.formTabs .open > a:hover,
 ul.formTabs .open > a:focus {
   background-color: #eeeeee;
-  border-color: #428bca;
+  border-color: #205c90;
 }
 
 ul.formTabs .nav-divider {
@@ -9509,8 +9509,8 @@ fieldset[disabled] input.submit-widget.active {
 
 input.context {
   color: #ffffff;
-  background-color: #428bca;
-  border-color: #357ebd;
+  background-color: #205c90;
+  border-color: #1b4f7b;
 }
 
 input.context:hover,
@@ -9519,8 +9519,8 @@ input.context:active,
 input.context.active,
 .open .dropdown-toggleinput.context {
   color: #ffffff;
-  background-color: #3276b1;
-  border-color: #285e8e;
+  background-color: #19476f;
+  border-color: #102f49;
 }
 
 input.context:active,
@@ -9544,8 +9544,8 @@ fieldset[disabled] input.context:active,
 input.context.disabled.active,
 input.context[disabled].active,
 fieldset[disabled] input.context.active {
-  background-color: #428bca;
-  border-color: #357ebd;
+  background-color: #205c90;
+  border-color: #1b4f7b;
 }
 
 select,
@@ -10207,13 +10207,13 @@ table.grid th {
 #category span.selectedTag {
   padding: 0.25em 0.5em;
   color: #fff;
-  background: #428bca;
+  background: #205c90;
   border-radius: 0.5em;
   border-radius: 4px;
 }
 
 #category a.link-category:hover {
-  background: #2a6496;
+  background: #123451;
 }
 
 #category .separator {

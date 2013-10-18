@@ -47,10 +47,10 @@
     </tal:entries>
   </section>
   <div id="blog-link">
-    <a href="" class="btn"
+    <a href="" class="btn btn-default"
       tal:define="portal_url context/portal_url"
       tal:attributes="href python:portal_url + '/blog'">
-      <i class="icon-plus-sign" />
+      <i class="icon-plus-sign"></i>
       Weitere Artikel</a>
   </div>
   </metal:content-core>
