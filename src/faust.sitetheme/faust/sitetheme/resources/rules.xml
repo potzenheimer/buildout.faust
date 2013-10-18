@@ -13,7 +13,7 @@
     <rules css:if-content="#visual-portal-wrapper">
 
         <notheme if="$ajax_load" />          
-        <theme href="theme.html" />
+        <theme href="dist/index.html" />
         
         <replace theme="/html/head/title" content="/html/head/title" />
         <replace theme="/html/head/base" content="/html/head/base" />
@@ -49,10 +49,10 @@
         <copy attributes="id dir" css:content="body" css:theme="body" />
 
         <!-- CMSUI Editbar replacements -->
-        <drop css:theme="#editbar-wrapper"
+        <drop css:theme="#app-toolbar"
             css:if-content="#anon-personalbar" />
         <!--<replace css:theme-children="#editbar" css:content="#edit-bar" />-->
-        <replace css:theme="#editbar-wrapper"
+        <replace css:theme="#app-toolbar"
             css:content="#toolbar" />
 
         <replace css:theme-children="#personal-tools" 
@@ -70,7 +70,7 @@
 
         <!-- Global navigation -->
         <replace css:content="#portal-globalnav li"
-            css:theme-children="#main-nav" />
+            css:theme-children="#app-nav-main" />
 
         <!-- Breadcrumbs -->
         <replace css:content-children='#portal-breadcrumbs'
@@ -88,7 +88,7 @@
         <replace css:content-children="#infobar"
             css:theme-children="#sidebar-info" />
         <replace css:content-children="#portal-column-two > *"
-            css:theme-children="#sidebar" />
+            css:theme-children="#app-sidebar" />
 
     </rules>
 
