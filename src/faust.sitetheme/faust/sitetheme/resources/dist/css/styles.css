@@ -10587,6 +10587,7 @@ body > header .brand {
 }
 
 .icon-x-large {
+  margin-right: 22px;
   font-size: 60px;
   line-height: 60px;
 }
