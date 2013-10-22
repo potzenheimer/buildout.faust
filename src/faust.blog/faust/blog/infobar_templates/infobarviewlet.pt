@@ -2,7 +2,7 @@
   <div class="well">
   <a href=""
     tal:define="portal_url context/portal_url"
-    tal:attributes="href python:portal_url + '/blog/rss'">
+    tal:attributes="href python:portal_url + '/RSS'">
     <i class="icon-rss icon-x-large" />
   </a>
   </div>
