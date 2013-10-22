@@ -11,7 +11,7 @@ env.hosts = ['zope8']
 env.webserver = '/opt/webserver/buildout.webserver'
 env.code_root = '/opt/sites/faust/buildout.faust'
 env.local_root = '/Users/cb/dev/faust/buildout.faustproject'
-env.sitename = 'ifd'
+env.sitename = 'faust'
 env.code_user = 'root'
 env.prod_user = 'www'
 
