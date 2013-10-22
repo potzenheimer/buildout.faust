@@ -10555,7 +10555,7 @@ body > header #editbar-wrapper + nav .navbar-inner {
 }
 
 body > header .brand {
-  font-family: 'OswaldBook';
+  font-family: 'Oswald';
 }
 
 .icon-x-large {
@@ -10569,7 +10569,7 @@ body > header .brand {
 
 .app-btn {
   margin-right: 22px;
-  font-family: 'OswaldBook';
+  font-family: 'Oswald';
   font-size: 20px;
   border-radius: 0;
 }
@@ -10598,8 +10598,8 @@ body > header .brand {
 }
 
 #blog-header h1 {
-  font-family: 'OswaldBook', Helvetica;
-  font-weight: normal;
+  font-family: 'Oswald', Helvetica;
+  font-weight: 400;
 }
 
 #blog-link {
@@ -10607,8 +10607,8 @@ body > header .brand {
 }
 
 #blog-view .page-header h2 {
-  font-family: 'OswaldBook';
-  font-weight: normal;
+  font-family: 'Oswald';
+  font-weight: 400;
 }
 
 #blog-view .page-header h2 a {
@@ -10631,8 +10631,8 @@ body > header .brand {
 }
 
 #blog-view article .lead {
-  font-family: 'OswaldLight';
-  font-weight: normal;
+  font-family: 'Oswald';
+  font-weight: 400;
 }
 
 #blog-view article footer {
@@ -10652,8 +10652,8 @@ body > header .brand {
 
 #content-wrapper h2,
 #content-wrapper h3 {
-  font-family: 'OswaldBook';
-  font-weight: normal;
+  font-family: 'Oswald';
+  font-weight: 300;
 }
 
 body > footer {

@@ -24,19 +24,18 @@
         
         <after content="/html/head/meta" theme-children="/html/head" />
         <!-- Copy style, script and link tags in the order they appear in the content -->
-        <after
-            content="/html/head/style | /html/head/link"
+         <after
+            content="/html/head/style | /html/head/script | /html/head/link"
             theme-children="/html/head"
             />
-        <!-- Move javascripts to the footer. this might cause problems
-             with Plone Addons that asume the js already loaded -->
-        <after content="/html/head/script" 
-            theme="/html/body/footer" />
 
         <drop theme="/html/head/style" />
         <drop theme="/html/head/script" />
         <drop theme="/html/head/link" />
 
+        <!-- Drop scripts from theme footer if present -->
+        <drop theme="/html/body/script" />
+        
         <!-- Custom favicon implementation -->
         <drop content="link[@type='image/x-icon']" />
         <after theme="/html/head">
@@ -53,7 +52,7 @@
             css:if-content="#anon-personalbar" />
         <!--<replace css:theme-children="#editbar" css:content="#edit-bar" />-->
         <replace css:theme="#app-toolbar"
-            css:content="#toolbar" />
+            css:content="#app-toolbar" />
 
         <replace css:theme-children="#personal-tools" 
             css:content-children="#portal-personaltools" />
