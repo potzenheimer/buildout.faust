@@ -1,14 +1,14 @@
 <section class="app-infobar" id="infobar">
   <div class="well">
-  <a href=""
+  <a class="app-infobar-link" href=""
     tal:define="portal_url context/portal_url"
     tal:attributes="href python:portal_url + '/RSS'">
-    <i class="icon-rss icon-4x icon-x-large" />
+    <i class="icon-rss icon-4x" />
   </a>
-  <a href="https://www.facebook.com/FaustFestivalMunchen2014?fref=ts">
+  <a class="app-infobar-link" href="https://www.facebook.com/FaustFestivalMunchen2014?fref=ts">
     <i class="icon-facebook-sign icon-4x"></i></a>
-    <a href="https://plus.google.com/114147382848335759302/posts?hl=de">
-        <i class="icon-google-plus icon-4x"></i></a>
+    <a class="app-infobar-link" href="https://plus.google.com/114147382848335759302/posts?hl=de">
+        <i class="icon-google-plus-sign icon-4x"></i></a>
   </div>
 
 </section>

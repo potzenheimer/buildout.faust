@@ -10586,10 +10586,8 @@ body > header .brand {
   font-family: 'Oswald';
 }
 
-.icon-x-large {
+.app-infobar-link {
   margin-right: 22px;
-  font-size: 60px;
-  line-height: 60px;
 }
 
 .btn {
