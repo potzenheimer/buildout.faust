@@ -97,8 +97,9 @@
             css:theme-children="#content" />
         
         <before css:content=".portalMessage" css:theme="#content" />
-        <after css:content-children="#viewlet-below-content"
-            css:theme-children="#below-main-content" />
+       
+        <replace css:content-children="#viewlet-below-content"
+            css:theme-children="#content-footer" />
 
         <!-- Columns -->
         <replace css:content-children="#infobar"

@@ -10683,6 +10683,10 @@ body > header .brand {
   font-weight: 300;
 }
 
+.app-content-aside {
+  clear: both;
+}
+
 body > footer {
   padding: 22px 0;
   margin-top: 22px;
